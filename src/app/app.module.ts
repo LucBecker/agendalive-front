@@ -19,12 +19,14 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { LiveListComponent } from './views/home/live-list/live-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    LiveListComponent,
   ],
   imports: [
     BrowserModule,
