@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
 
   addLive(): void {
     const dialogRef = this.dialog.open(LiveFormDialogComponent, {
-      width: '250px',
+      minWidth: '400px',
 
     });
 
