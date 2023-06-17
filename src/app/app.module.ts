@@ -21,6 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { LiveListComponent } from './views/home/live-list/live-list.component';
 import { LocalDateTimePipe } from './shared/pipe/local-date-time.pipe';
+import { LiveFormDialogComponent } from './views/home/live-form-dialog/live-form-dialog.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { LocalDateTimePipe } from './shared/pipe/local-date-time.pipe';
     HomeComponent,
     LiveListComponent,
     LocalDateTimePipe,
+    LiveFormDialogComponent,
   ],
   imports: [
     BrowserModule,
